@@ -39,16 +39,18 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Todo Application",
+          "App Name ?",
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 25,
+            fontSize: 16,
+            fontFamily: 'Consolas',
+            color: Colors.black,
           ),
         ),
         
         // Centers the app bar title
         centerTitle: true, 
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.white,
         foregroundColor: Colors.white,
       ),
       body: Container(
